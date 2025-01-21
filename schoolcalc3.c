@@ -96,6 +96,11 @@ int main()
     }
 
     overallavg = (scienceavg + mathsavg + englishavg) / 3;
+    
+    printf("\nfinal result\n");
+    printf("Math: %f\n", mathsavg);
+    printf("Science: %f\n", scienceavg);
+    printf("English: %f\n", englishavg);
     printf("Overall average: %.2f\n", overallavg);
 
     return 0;
